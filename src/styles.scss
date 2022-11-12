@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  /*Declaramos las variables que vamos a usar*/
+  --color1: #023047;
+  --color2: #219EBC;
+  --color3: #8ECAE6;
+  --color4: #FFB703;
+  --color5: #FB8500;
+}
+
+/*QUITAMOS LOS ESTILOS QUE TRAE POR DEFECTO EL NAVEGADOR*/
+html, body{
+  margin: 0;
+  padding: 0;
+}
