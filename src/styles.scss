@@ -1,3 +1,5 @@
+@import '~perfect-scrollbar/css/perfect-scrollbar.css';
+
 :root{
   /*Declaramos las variables que vamos a usar*/
   --color1: #023047;
@@ -6,9 +8,37 @@
   --color4: #FFB703;
   --color5: #FB8500;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 
 /*QUITAMOS LOS ESTILOS QUE TRAE POR DEFECTO EL NAVEGADOR*/
 html, body{
   margin: 0;
   padding: 0;
+  color: white;
+  font-family:'Roboto Mono', Times, serif;
+  background-color: var(--color1);
+
+}
+h1, h2{
+  margin: 0;
+}
+hr{
+  color: rgba(255, 249, 249, 0.808);
+  margin: 0.5rem;
+}
+a{
+  color: var(--color2);
+}
+
+
+//CICLO FOR EN SCSS
+
+@for $i from 1 to 100 {
+  .animation-#{$i} {
+    animation-delay: #{$i / 10}s;
+  }
+
 }

@@ -1,0 +1,18 @@
+<div class="wrapper animate__animated animate__slideInDown">
+  <div class="section-1">
+    <div class="name">
+      <i class="uil uil-arrow"> SOFÍA SCHENONE - Full Stack Develop</i>
+    </div>
+  </div>
+  <div class="section-2">
+    <div class="list-menu">
+      <div class="item-menu" *ngFor="let item of links; let i= index">
+        <span class="item-number">
+        <a [href]="item.link" class="link">
+          <span [innerHTML]="item.icon"></span>
+        </a>
+      </span>
+      </div>
+    </div>
+  </div>
+</div>

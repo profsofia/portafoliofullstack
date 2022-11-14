@@ -1,0 +1,38 @@
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  align-content: center;
+  height: 3.5rem;
+  animation-duration: 3s; /* don't forget to set a duration! */
+
+  border-bottom: solid 1px #16161f4d;
+  box-shadow: 0 0 6px #b96d08e3;
+  .section-2{
+    .list-menu{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      .item-menu{
+        padding: 0 1rem;
+        cursor: pointer;
+        transition: all ease 200ms;
+        font-size: 1.7rem;
+
+        &:hover{
+          opacity: .8rem;
+          color: var(--color4);
+        }
+
+      }
+      .item-number{
+        color: var(--color4);
+        padding: 0 .5rem;
+      }
+    }
+
+  }
+}
+
