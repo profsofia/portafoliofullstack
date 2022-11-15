@@ -1,36 +1,29 @@
 <div class="wrapper">
-  <div class="pre-title">
-    Hola! Mi nombre es
-  </div>
-  <h1 class="title animate__animated animate__slideInUp animation-2">Sofía Schenone</h1>
+  <div class="pre-title">Hola! Mi nombre es</div>
+  <h1 class="title animate__animated animate__slideInUp animation-2">
+    Sofía Schenone
+  </h1>
   <h2>Soy desarrolladora Full Stack</h2>
   <!--<img src="https://res.cloudinary.com/sofiaschenone/image/upload/v1659631612/portfolio/Dise%C3%B1o_sin_t%C3%ADtulo_5_yx0r5i-removebg-preview_omgku0.png" class="rounded-circle rounded mx-auto d-block img-fluid" width="150px" height="150px">-->
-  <h3 class="tw">Manejo </h3>
-  <hr>
-  <p class="description animate__animated animate__slideInUp animation-10">
-    Programadora Java/Javascript,
-    apasionada por aprender nuevos
-    lenguajes. Me gusta crear cosas
-    que sean muy útiles para la
-    enseñanza, tengo un canal de
-    YouTube en el cual me dedico a
-    subir contenido gratuito para
-    preuniversitarios. Tengo una
-    gran curiosidad por la
-    tecnología y la educación. Soy
-    amante de las matemáticas y
-    autodidacta.</p>
+  <h3 class="tw">Herramientas: </h3>
+  <hr />
+  <p class="description">
+    Programadora Java/Javascript, apasionada por aprender nuevos lenguajes. Me
+    gusta crear cosas que sean muy útiles para la enseñanza, tengo un canal de
+    YouTube en el cual me dedico a subir contenido gratuito para
+    preuniversitarios. Tengo una gran curiosidad por la tecnología y la
+    educación. Soy amante de las matemáticas y autodidacta.
+  </p>
   <div class="link-wrapper">
-    <hr>
+    <hr />
     <div class="links d-flex flex-wrap">
       <div class="block col-12 col-lg-6" *ngFor="let link of links">
-       <a [href]="link.link" target="_blank">
-        <div class="block-in">
-          <span [innerHTML]="link.icon"></span>
-        </div>
-       </a>
+        <a [href]="link.link" target="_blank">
+          <div class="block-in">
+            <span [innerHTML]="link.icon"></span>
+          </div>
+        </a>
       </div>
     </div>
   </div>
 </div>
-
