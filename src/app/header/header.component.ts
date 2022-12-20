@@ -8,22 +8,22 @@ import { LinkModel } from '../sidebar/sidebar.component';
 })
 export class HeaderComponent implements OnInit {
   links : Array<LinkModel> =[
-    {
-      link:'mailto: sofiainesschenone@gmail.com',
-      icon: '<i class="uil uil-envelope-edit"></i>'
+    { name:'Rest Countries',
+      link:'https://paises-rest-country.netlify.app',
+      icon: '<i class="uil uil-link-h"></i>'
     },
-    {
-      link:'https://www.linkedin.com/in/sofiaschenone/',
-      icon: '<i class="uil uil-linkedin"></i>'
+    { name:'Gif App',
+      link:'https://gifappsofia.netlify.app',
+      icon: '<i class="uil uil-link-h"></i>'
     },
-    {
+    /*{
       link:'https://github.com/profsofia',
-      icon: '<i class="uil uil-github"></i>'
+      icon: '<i class="uil uil-window"></i>'
     },
     {
-      link:'https://www.youtube.com/channel/UCcSErMMrU9eYeT93L-87n-w',
-      icon: '<i class="uil uil-youtube"></i>'
-    }
+      link:'https://pokedexangular-sofia.web.app/home',
+      icon: '<i class="uil uil-window"></i>'
+    }*/
   ]
   constructor() { }
 

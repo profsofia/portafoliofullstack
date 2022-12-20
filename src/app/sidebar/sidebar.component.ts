@@ -103,6 +103,7 @@ export class SidebarComponent implements OnInit {
 }
 
 export class LinkModel{
+  name?: string;
   link: string;
   icon: string;
 

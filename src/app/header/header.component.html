@@ -6,13 +6,15 @@
   </div>
   <div class="section-2">
     <div class="list-menu">
-      <!--<div class="item-menu" *ngFor="let item of links; let i= index">
+      <div class="item-menu" *ngFor="let item of links; let i= index">
         <span class="item-number">
-        <a [href]="item.link" class="link">
-          <span [innerHTML]="item.icon"></span>
+        <a [href]="item.link" class="link" target="_blank">
+          <span [innerHTML]="item.icon" ></span>
+          {{item.name | uppercase}}
         </a>
       </span>
-      </div>-->
+      </div>
+
     </div>
   </div>
 </div>
